@@ -1,0 +1,100 @@
+/* #region spaceHolders Display */
+@media (min-width: 992px) {
+  .spaceHolder {
+    display: block;
+  }
+}
+@media (max-width: 991px) {
+  .spaceHolder {
+    display: none;
+  }
+}
+/* #endregion */
+
+/* #region navBar  */
+
+.navBar {
+  background-color: #2f3645;
+  color: #eeedeb;
+}
+.navBar h1 {
+  font-size: 30px;
+}
+
+.contact {
+  text-align: right;
+}
+
+/* #endregion */
+
+/* #region aboutMe*/
+.aboutMe {
+  background-color: #e6b9a6;
+  text-align-last: center;
+  padding: 15px;
+}
+
+.aboutMeRow img {
+  width: 300px;
+  /* float: right; */
+}
+
+@media (min-width: 992px) {
+  .aboutMe img {
+    float: right;
+  }
+}
+/* #endregion */
+
+/* #region PROJECTS */
+.projects {
+  padding: 15px;
+  background-color: #eeedeb;
+  text-align: -webkit-center;
+}
+
+.projectBox img {
+  /* align-items: center; */
+}
+/* #endregion */
+
+/* #region CERTIFICATIONS */
+.certifications {
+  background-color: #939185;
+  padding: 15px;
+  text-align: -webkit-center;
+}
+/* #endregion */
+
+/* #region CONTACT */
+.contact {
+  background-color: #e6b9a6;
+  padding: 15px;
+}
+.contactInfo {
+  text-align: center;
+  align-self: center;
+}
+
+.location {
+  text-align: -webkit-center;
+}
+
+/* #endregion */
+
+/* #region FOOTER */
+.footer {
+  background-color: #2f3645;
+}
+
+.footerRow img {
+  width: 15px;
+}
+
+.linkedin,
+.github,
+.sheCodes {
+  width: 50px;
+}
+
+/* #endregion */
