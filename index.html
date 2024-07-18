@@ -8,17 +8,21 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="navBar container-fluid" style="padding: 20px">
+    <div class="navBar container-fluid" style="padding: 10px">
       <div class="navBarRow row">
-        <div class="col">
-          <img src="" alt="Nicole Torres Logo" />
+        <div class="logoCol col">
+          <img
+            class="image-fluid"
+            src="./media/logo.png"
+            alt="Nicole Torres Logo"
+          />
         </div>
         <div class="name col">
-          <h1>Nicole M. Torres Mendez</h1>
+          <h1>Portafolio N.T</h1>
         </div>
         <!-- END OF name COL-->
-        <div class="contactLink col" style="padding-right: 55px">
-          <a href=""><p>CONTACT</p></a>
+        <div class="contactLink col">
+          <a href="#contactId"><p>CONTACT</p></a>
         </div>
         <!-- END OF contact COL-->
       </div>
@@ -33,7 +37,7 @@
         <div class="profileImg col col-lg-4">
           <img
             class="image-fluid"
-            src="./media/nicole-torres-img.JPG"
+            src="./media/nicole-torres-img.png"
             alt="profile img of Nicole Torres"
           />
         </div>
@@ -60,12 +64,21 @@
           <div class="projectBox">
             <img
               class="image-fluid"
-              src="https://placehold.co/200x200.png"
+              src="./media/airbox.png"
               alt="..."
               class="img-thumbnail"
             />
-            <h4>AirBox Project</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://nicolem-torres.github.io/Airbox-Project/"
+              target="_blank"
+            >
+              <h4>AirBox Project</h4></a
+            >
+            <a
+              href="https://github.com/NicoleM-Torres/Airbox-Project.git"
+              target="_blank"
+              ><p>Github Code</p></a
+            >
           </div>
           <!--END OF projectBox div-->
         </div>
@@ -78,8 +91,17 @@
               alt="..."
               class="img-thumbnail"
             />
-            <h4>AirBox Project</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://nicolem-torres.github.io/Airbox-Project/"
+              target="_blank"
+            >
+              <h4>Uncharted Waters C#</h4></a
+            >
+            <a
+              href="https://github.com/NicoleM-Torres/Airbox-Project.git"
+              target="_blank"
+              ><p>Github Code</p></a
+            >
           </div>
           <!--END OF projectBox div-->
         </div>
@@ -92,8 +114,17 @@
               alt="..."
               class="img-thumbnail"
             />
-            <h4>AirBox Project</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://nicolem-torres.github.io/Airbox-Project/"
+              target="_blank"
+            >
+              <h4>Kiosk C#</h4></a
+            >
+            <a
+              href="https://github.com/NicoleM-Torres/Airbox-Project.git"
+              target="_blank"
+              ><p>Github Code</p></a
+            >
           </div>
           <!--END OF projectBox div-->
         </div>
@@ -106,8 +137,17 @@
               alt="..."
               class="img-thumbnail"
             />
-            <h4>AirBox Project</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://nicolem-torres.github.io/Airbox-Project/"
+              target="_blank"
+            >
+              <h4>AirBox Project</h4></a
+            >
+            <a
+              href="https://github.com/NicoleM-Torres/Airbox-Project.git"
+              target="_blank"
+              ><p>Github Code</p></a
+            >
           </div>
           <!--END OF projectBox div-->
         </div>
@@ -120,55 +160,73 @@
     <div class="certifications container-fluid">
       <div class="certificationsRow row">
         <div class="certificationOne col">
-          <div class="cetificationBox">
-            <img
-              class="image-fluid"
-              src="https://placehold.co/200x200.png"
-              alt="..."
-              class="img-thumbnail"
-            />
-            <h4>Back End Certification</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="container">
+            <a
+              href="https://www.shecodes.io/certificates/70fa9135e9d2d66c394e608dc7ac4d52?_gl=1*16dfn4a*_gcl_aw*R0NMLjE3MjExNjIwOTMuQ2p3S0NBand0TmkwQmhBMUVpd0FXWmFBTk1FWVZDWWhLRkNGem9xRmlUZi13c3hXSjlEZWdKNmVoWXFYczRvaVdIRml6b0p0elpVVkRCb0NjQ3dRQXZEX0J3RQ..*_gcl_au*Mjc0MzA3MDQ3LjE3MTUyMDE3MzIuMjQ2NjQ2MTM1LjE3MjA2Mjc5NjIuMTcyMDYyODc1Ng.."
+              target="_blank"
+            >
+              <img
+                class="image-fluid"
+                src="./media/SheCodes_Cert.png"
+                alt="..."
+            /></a>
+            <div class="overlay"></div>
+
+            <h4>SheCodes Basic</h4>
+            <h4>Certification</h4>
+            <p>Basics of HTML, CSS & JavaScript.</p>
           </div>
-          <!--END OF certificationBox div-->
+          <!-- END OF container div -->
         </div>
         <!-- END OF certificationOne COL-->
+
         <div class="certificationTwo col">
-          <div class="certificationBox">
-            <img
-              class="image-fluid"
-              src="https://placehold.co/200x200.png"
-              alt="..."
-              class="img-thumbnail"
-            />
-            <h4>SheCodes Certification</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="container">
+            <a href="https://mscoding.org/" target="_blank">
+              <img
+                class="image-fluid"
+                src="./media/Back End Certification.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </a>
+            <div class="overlay"></div>
+            <h4>Back-end MSCA Certification</h4>
+            <p>Back-end Certification focus on C# language.</p>
           </div>
-          <!--END OF certificationBox div-->
+          <!--END OF container div-->
         </div>
         <!-- END OF certificationTwo COL-->
+
         <div class="certificationThree col">
-          <div class="certificationBox">
-            <img
-              class="image-fluid"
-              src="https://placehold.co/200x200.png"
-              alt="..."
-              class="img-thumbnail"
-            />
-            <h4>Certification Three</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="container">
+            <a href="https://mscoding.org/" target="_blank">
+              <img
+                class="image-fluid"
+                src="./media/Front End Certification.png"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </a>
+            <div class="overlay"></div>
+            <h4>Front-end MSCA Certification</h4>
+            <p>
+              Front-end Certification focus on HTML, CSS & JavaScript.
+              Frameworks: Bootstrap.
+            </p>
           </div>
-          <!--END OF certificationBox div-->
+          <!--END OF container div-->
         </div>
         <!-- END OF certificationThree COL-->
         <div class="certificationFour col">
-          <div class="certificationBox">
+          <div class="container">
             <img
               class="image-fluid"
               src="https://placehold.co/200x200.png"
               alt="..."
               class="img-thumbnail"
             />
+            <div class="overlay"></div>
             <h4>Certification Four</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
@@ -180,7 +238,7 @@
     </div>
     <!-- END OF certifications CONTAINER -->
 
-    <div class="contact container-fluid">
+    <div class="contact container-fluid" id="contactId">
       <div class="contactRow row">
         <div class="spaceHolder col"></div>
         <div class="contactInfo col">
@@ -190,12 +248,21 @@
         <!--contactInfo COL-->
         <!--  -->
         <div class="location col">
-          <p>I'm located in the Gulf Coast:</p>
-          <img
+          <p>I'm located:</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444191.946501601!2d-92.51847341190805!3d32.54033424886783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862832e4e44ad419%3A0x620d177fe9dca6da!2sMississippi!5e0!3m2!1sen!2sus!4v1721244062200!5m2!1sen!2sus"
+            width="200"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <!-- <img
             class="img-fluid"
             src="https://placehold.co/200x200.png"
             alt="map"
-          />
+          /> -->
         </div>
         <!-- END location COL -->
 
@@ -207,22 +274,40 @@
 
     <div class="footer container-fluid">
       <div class="footerRow row">
-        <div class="spaceHolder col"></div>
-        <div class="socialMedia col-4">
-          <div class="linkedin">
-            <a href=""><img src="./media/linkedin.png" alt="" /></a>
-          </div>
-          <!-- END OF linkedin DIV -->
-          <div class="github">
-            <a href=""><img src="./media/github.png" alt="" /></a>
-          </div>
-          <!-- END OF github DIV -->
-          <div class="sheCodes">
-            <a href=""><img src="./media/shecodes.png" alt="" /></a>
-          </div>
-          <!-- END OF sheCodes DIV -->
+        <div class="credit col">
+          <p>Built by Nicole Torres Mendez</p>
         </div>
         <div class="spaceHolder col"></div>
+        <div class="socialMedia col-6">
+          <div class="socialMediaRow row">
+            <div class="linkedin col-2">
+              <a
+                href="https://www.linkedin.com/in/nicole-torresm/"
+                target="_blank"
+                ><img src="./media/linkedin.png" alt=""
+              /></a>
+            </div>
+            <!-- END OF linkedin DIV -->
+            <div class="github col-2">
+              <a href="https://github.com/NicoleM-Torres" target="_blank"
+                ><img src="./media/github.png" alt=""
+              /></a>
+            </div>
+            <!-- END OF github DIV -->
+            <div class="sheCodes col-2">
+              <a
+                href="https://www.shecodes.io/graduates/18360-nicole-torres"
+                target="_blank"
+                ><img src="./media/shecodes.png" alt=""
+              /></a>
+            </div>
+            <!-- END OF sheCodes DIV -->
+          </div>
+          <!-- END OF socialMediaRow ROW -->
+        </div>
+        <!-- END OF socialMedia COL -->
+
+        <!-- <div class="spaceHolder col"></div> -->
       </div>
       <!-- END OF footerRow ROW -->
     </div>
