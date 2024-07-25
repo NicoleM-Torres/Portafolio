@@ -133,6 +133,9 @@ a:hover {
   list-style-image: url('/media/backend.png');
 }
 
+li {
+  width: 10px;
+}
 
 /* #endregion */
 
