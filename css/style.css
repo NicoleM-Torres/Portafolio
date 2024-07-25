@@ -58,15 +58,39 @@ a:hover {
   padding: 15px;
 }
 
-.aboutMeRow img {
-  width: 300px;
+.profImg img {
+  width: 200px;
   border-radius: 100px;
   /* float: right; */
 }
 
-@media (min-width: 992px) {
-  .aboutMe img {
-    float: right;
+.linkedin1 img,
+.sheCodes1 img,
+.github1 img {
+  width: 35px;
+  
+}
+
+.aboutMeSocials {
+  align-content: center;
+
+}
+
+.codingExperience h1 {
+  text-align: center;
+}
+.codingExperience {
+      align-content: center;
+
+}
+
+.contactMe {
+  border-radius: ;
+}
+
+@media (max-width: 992px) {
+  .aboutMeSocials {
+    display: none;
   }
 }
 /* #endregion */
@@ -107,7 +131,6 @@ a:hover {
 
 /* #region CERTIFICATIONS */
 .certifications {
-  
   background: linear-gradient(#eeedeb, #939185), rgba(0, 0, 0, 0.5);
 
   background-color: #939185;
@@ -121,11 +144,9 @@ a:hover {
 .certifications img {
   padding-bottom: 10px;
   width: 150px;
-  
 }
 
 .container {
-  
   background-color: white;
   position: relative;
   width: 300px;
@@ -145,7 +166,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #e6b9a6;
 }
 
@@ -173,7 +194,7 @@ a:hover {
   color: #2f3645;
   padding: 15px;
   border-width: 4;
-  border-style:ridge;
+  border-style: ridge;
   border-color: #2f3645;
   border-left: 0;
   border-right: 0;
@@ -221,5 +242,3 @@ a:hover {
 }
 
 /* #endregion */
-
-
