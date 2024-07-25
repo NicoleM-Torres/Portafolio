@@ -125,9 +125,14 @@ a:hover {
     /* text-align: -webkit-center; */
 }
 
-.backendList ul, .frontendList ul{
-    list-style-image: url(frontend.png);
+.frontendList ul{
+    list-style-image: url('/media/frontend.png');
+    width: 8px;
 }
+.backendList ul {
+  list-style-image: url('/media/backend.png');
+}
+
 
 /* #endregion */
 
