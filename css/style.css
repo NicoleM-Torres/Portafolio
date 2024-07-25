@@ -14,8 +14,8 @@
 /* #region navBar  */
 
 .navBar {
-  background-color: #2f3645;
-  color: #eeedeb;
+  background-color: #eeedeb;
+  color: #6C55E0;
 }
 .navBar h1 {
   padding-top: 20px;
@@ -35,11 +35,11 @@
 
 .contactLink a {
   text-decoration: none;
-  color: #939185;
+  color: black;
 }
 
 a:hover {
-  color: #e6b9a6;
+  color: #6C55E0;
 }
 
 @media (max-width: 991px) {
@@ -52,8 +52,7 @@ a:hover {
 
 /* #region aboutMe*/
 .aboutMe {
-  background: linear-gradient(#e6b9a6, #eeedeb), rgba(0, 0, 0, 0.5);
-  color: #2f3645;
+  background-color: #eeedeb;
   text-align-last: center;
   padding: 15px;
 }
@@ -81,11 +80,14 @@ a:hover {
 }
 .codingExperience {
       align-content: center;
-
+      text-align: center;
 }
 
 .contactMe {
-  border-radius: ;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #6C55E0;
+  padding: 10px;
 }
 
 @media (max-width: 992px) {
@@ -93,6 +95,40 @@ a:hover {
     display: none;
   }
 }
+/* #endregion */
+
+/* #region Skills */
+.skills {
+    background-color: #eeedeb;
+    padding-top: 10px;
+}
+
+.skillsRowHeader {
+      text-align-last: center;
+
+}
+
+.frontendTitleCol, .backendTitleCol {
+      align-content: center;
+
+}
+.frontendImg , .backendImg {
+  width: 55px;
+  float: right;
+
+}
+.backendSkills {
+  /* align-content: center; */
+}
+
+.backendList, .frontendList {
+    /* text-align: -webkit-center; */
+}
+
+.backendList ul, .frontendList ul{
+    list-style-image: url(frontend.png);
+}
+
 /* #endregion */
 
 /* #region PROJECTS */
